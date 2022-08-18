@@ -31,7 +31,7 @@ main {
   z-index: 1;
   display: flex;
 }
-  
+
 .container {
   max-width: 1020px;
   margin: 0 auto;
@@ -108,28 +108,46 @@ main {
   color: var(--stat-headings);
 }
 
-@media only screen and (max-width: 425px) {
+@media screen and (max-width: 850px) {
+  .text {
+    padding: 10%;
+  }
+}
+
+@media screen and (max-width: 743px) {
   .container {
     text-align: center;
   }
+
   .card {
     grid-template-columns: 1fr;
   }
+
   .img-component {
     order: -1;
   }
+
   .text {
     padding: 12% 8%;
   }
+
   .text h1 {
     font-size: 22px;
     line-height: 1.6;
   }
+
   .stat-box {
     flex-direction: column;
     padding-top: 30px;
   }
+
   .stat-box div {
     margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  main {
+    min-width: auto;
   }
 }
