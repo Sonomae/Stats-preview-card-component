@@ -73,14 +73,14 @@ main {
   padding: 15%;
 }
 
-.text h2 {
+.text h1 {
   color: var(--main);
   font-weight: 700;
   padding-bottom: 22px;
   font-size: larger;
 }
 
-.text h2 span {
+.text h1 span {
   color: var(--accent);
 }
 
@@ -121,7 +121,7 @@ main {
   .text {
     padding: 12% 8%;
   }
-  .text h2 {
+  .text h1 {
     font-size: 22px;
     line-height: 1.6;
   }
